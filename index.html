@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="https://via.placeholder.com/50" alt="logo" />
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Contacto</li>
+          <li>Nosotros</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- primera seccion -->
+      <section>
+        <article>
+          <h1>hola</h1>
+        </article>
+      </section>
+      <!-- Segunda Seccion -->
+      <section>
+        <article>
+          <h1>holis</h1>
+        </article>
+      </section>
+      <!-- Tercera seccion -->
+      <section>
+        <form>
+          <div>
+            <label for="name">nombre</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="pepe argento"
+              name="name"
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Example@example.com" id="email" />
+          </div>
+
+          <div>
+            <label for="edad">edad</label>
+            <input type="number" id="edad" required />
+          </div>
+
+          <div>
+            <label for="pass">Contraseña</label>
+            <input type="password" required />
+          </div>
+
+          <div>
+            <input type="checkbox" id="terminos" required />
+            <label for="terminos">Acepto terminos y condiciones</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="spam" checked />
+            <label for="spam">Acepta spam todos los dias</label>
+          </div>
+
+          <div>
+            <p>Gusto de helado favorito</p>
+            <div>
+              <input type="radio" id="messi" name="gustos" />
+              <label for="messi">messi</label>
+            </div>
+            <div>
+              <input type="radio" id="chocolate" name="gustos" />
+              <label for="chocolate">chocolate</label>
+            </div>
+          </div>
+          <div>
+            <input type="radio" id="vainilla" name="gustos" />
+            <label for="vainilla">vainilla</label>
+          </div>
+
+          <div>
+            <label for="juego">Jugar</label>
+            <select name="juego" id="juego">
+              <option value="piedra">Piedra</option>
+              <option value="papel">Papel</option>
+              <option value="tijera">Tijera</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="mensaje">Mensaje: </label>
+            <br />
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+
+          <div>
+            <label for="tel">Telefono</label>
+            <input type="tel" id="tel" />
+          </div>
+          <input type="submit" value="enviar" />
+          <input type="reset" />
+        </form>
+      </section>
+    </main>
+    <hr />
+    <footer>
+      <ul>
+        <li>jiji</li>
+      </ul>
+    </footer>
+  </body>
+</html>
